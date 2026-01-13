@@ -1,3 +1,13 @@
+<div align="left">
+
+  [![Release][release-badge]][release-link]
+  [![Commits][commits-badge]][commits-link]
+
+  ![Downloads][downloads-badge]
+  [![License][license-badge]][license-link]
+ 
+</div>
+
 # ♟️ sf-kernel
 A warning-free, surgically reduced, standards-clean Stockfish kernel...a minimal Stockfish-derived chess engine core
 
@@ -94,3 +104,10 @@ Excluded:
 - Legacy portability shims
 - Platform-specific wrappers
 
+[license-badge]:https://img.shields.io/github/license/FireFather/sf-kernel?style=for-the-badge&label=license&color=success
+[license-link]:https://github.com/FireFather/sf-kernel/blob/main/LICENSE
+[release-badge]:https://img.shields.io/github/v/release/FireFather/sf-kernel?style=for-the-badge&label=official%20release
+[release-link]:https://github.com/FireFather/sf-kernel/releases/latest
+[commits-badge]:https://img.shields.io/github/commits-since/FireFather/sf-kernel/latest?style=for-the-badge
+[commits-link]:https://github.com/FireFather/sf-kernel/commits/main
+[downloads-badge]:https://img.shields.io/github/downloads/FireFather/sf-kernel/total?color=success&style=for-the-badge
