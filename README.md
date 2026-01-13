@@ -80,12 +80,17 @@ Everything unnecessary for pure chess intelligence has been cut away.
 ✅ Compiles cleanly at strict warning levels
 ✅ Functional engine core
 ✅ Major size reduction vs Stockfish
+
 ✅ Warning-clean under strict analysis modes
 🚧 Ongoing: cleanup and subsystem documentation
 
 ## 🧩 Based On
 This project is based on:
 Stockfish https://github.com/official-stockfish/Stockfish
+
+## ⚙️To Build
+- Visual Studio -> use the included project files: sf-kernel.sln or sf-kernel.vcxproj
+- Msts2 mingx64 -> use the included shell scripts: make_avx2.sh, make_bmi2.sh or make_all.sh
 
 ## 📜 License
 - sf-kernel is derived from Stockfish and is released under the GNU General Public License v3.
