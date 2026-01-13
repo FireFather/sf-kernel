@@ -76,9 +76,11 @@ Everything unnecessary for pure chess intelligence has been cut away.
 
 ## 🧩 Based On
 This project is based on:
+Stockfish https://github.com/official-stockfish/Stockfish
 
-Stockfish 16
-https://github.com/official-stockfish/Stockfish
+## License
+- sf-kernel is derived from Stockfish and is released under the GNU General Public License v3.
+- See LICENSE for details.
 
 ## 📦 Current Scope
 Included:
