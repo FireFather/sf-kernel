@@ -60,9 +60,7 @@ It is Stockfish — just without the noise.
 
 ## 🔬 What Makes sf-kernel Different
 - Source code footprint size: ~680 KB has been reduced to ~218 KB
-- Compiler warnings reduced (via strict MSVC/Resharper/Clang analysis)
-from 3029 see docs/stockfish_16_warnings.xml for details
-to 118 see docs/sf-kernel_1.0_warnings.xml for details
+- Compiler warnings reduced from 3029 to 118 (via strict MSVC/Resharper/Clang analysis, see docs/stockfish_16_warnings.xml and docs/sf-kernel_1.0_warnings.xml for details)
 - Build surface: from Large to Minimal
 - Dependencies: from Many to Tiny
 - Embeddable: from Hard to Easy
