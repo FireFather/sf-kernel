@@ -33,15 +33,30 @@ The project is not a “fork” in the traditional sense — it is a structural 
 - C++ standard conformance & static analysis cleanliness
 - Maximum warning hygiene
 
+📦 What Was Removed
 All non-essential layers:
-- UCI front-end glue
-- Debugging infrastructure
+
+- Debugging 
 - Legacy hacks
 - Compatibility shims
 - Platform clutter
 - Feature bloat
+- Syzygy TB code
+- Training infrastructure (Not runtime logic)
+- Legacy platform glue (Modern C++ only)
+- Debug infrastructure(Clean release kernel)
 
-have been removed or rewritten.
+## 🧱 What Remains
+- Move generation
+- Search & pruning logic
+- Evaluation & NNUE interface
+- Hash tables
+- Threading & time control
+- Position, legality, SEE, repetition, etc.
+- UCI interface
+- Time Management
+
+It is Stockfish — just without the noise.
 
 ## 🔬 What Makes sf-kernel Different
 - Source code footprint size: ~680 KB has been reduced to ~218 KB
