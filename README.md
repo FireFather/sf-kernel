@@ -60,14 +60,16 @@ It is Stockfish — just without the noise.
 
 ## 🔬 What Makes sf-kernel Different
 - Source code footprint size: ~680 KB has been reduced to ~218 KB
-- Compiler warnings reduced:
-	from 3029 ![alt tag](https://raw.githubusercontent.com/FireFather/sf-kernel/master/docs/stockfish_16_warnings.xml)
-	to 118 ![alt tag](https://raw.githubusercontent.com/FireFather/sf-kernel/master/docs/sf-kernel_1.0_warnings.xml)
-  (via strict MSVC/Resharper/Clang analysis)
-- Build surface: Large to Minimal
-- Dependencies: Many to Tiny
-- Embeddable: Hard to Easy
-- Readability: Low to High
+- Compiler warnings reduced (via strict MSVC/Resharper/Clang analysis)
+
+	from 3029 see docs/stockfish_16_warnings.xml for details
+	
+	to 118 see docs/sf-kernel_1.0_warnings.xml for details
+	
+- Build surface: from Large to Minimal
+- Dependencies: from Many to Tiny
+- Embeddable: from Hard to Easy
+- Readability: from Low to High
 
 sf-kernel preserves Stockfish’s world-class playing strength while making the engine auditable, portable, and clean.
 
