@@ -46,6 +46,7 @@ All non-essential layers:
 - Platform clutter
 - Feature bloat
 - Syzygy TB code
+- Classical Evaluation
 - Training infrastructure (Not runtime logic)
 - Legacy platform glue (Modern C++ only)
 - Debug infrastructure(Clean release kernel)
