@@ -1,12 +1,10 @@
 # sf-kernel
-A warning-free, standards-clean Stockfish kernel...a minimal Stockfish-derived chess engine core
+A warning-free, surgically reduced, standards-clean Stockfish kernel...a minimal Stockfish-derived chess engine core
 
 sf-kernel is a stripped-down, modernized, and aggressively cleaned extraction of the Stockfish 16 engine core, designed to serve as a minimal, embeddable, analyzable chess engine kernel.
 
 ## Overview
-sf-kernel is a surgically reduced, standards-clean kernel derived from Stockfish 16.
-
-It preserves Stockfish’s proven search, evaluation, and move generation logic, while removing large amounts of legacy scaffolding, compatibility baggage, and platform-specific cruft.
+sf-kernel preserves Stockfish’s proven search, evaluation, and move generation logic, while removing large amounts of legacy scaffolding, compatibility baggage, and platform-specific cruft.
 The result is a compact, modern C++ chess engine core that is:
 
 - Dramatically smaller than upstream Stockfish
