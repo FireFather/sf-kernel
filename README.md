@@ -1,7 +1,20 @@
 # sf-kernel
-A warning-free, standards-clean Stockfish 16 kernel...a minimal Stockfish-derived chess engine core
+A warning-free, standards-clean Stockfish kernel...a minimal Stockfish-derived chess engine core
 
 sf-kernel is a stripped-down, modernized, and aggressively cleaned extraction of the Stockfish 16 engine core, designed to serve as a minimal, embeddable, analyzable chess engine kernel.
+
+## Overview
+sf-kernel is a surgically reduced, standards-clean kernel derived from Stockfish 16.
+
+It preserves Stockfish’s proven search, evaluation, and move generation logic, while removing large amounts of legacy scaffolding, compatibility baggage, and platform-specific cruft.
+The result is a compact, modern C++ chess engine core that is:
+
+- Dramatically smaller than upstream Stockfish
+- Fully warning-clean at maximum compiler warning levels
+- Standards-focused and tool-friendly
+- Ideal for research, experimentation, embedding, and educational use
+
+The project is not a “fork” in the traditional sense — it is a structural distillation of Stockfish into a minimal, self-contained kernel.
 
 ## Focus
 - Deterministic, warning-free builds
@@ -15,7 +28,7 @@ All non-essential layers:
 - Debugging infrastructure
 - Legacy hacks & compatibility shims
 - Platform clutter
-— have been removed or rewritten.
+have been removed or rewritten.
 
 The result is a tiny, fast, transparent Stockfish kernel suitable for:
 
@@ -37,22 +50,37 @@ The result is a tiny, fast, transparent Stockfish kernel suitable for:
 sf-kernel preserves Stockfish’s world-class playing strength while making the engine auditable, portable, and clean.
 
 ## 🧠 Core Philosophy
-
 sf-kernel treats Stockfish as a kernel, not an application.
-
 Everything unnecessary for pure chess intelligence has been cut away.
 
-## 🧩 Based On
+## 🚀 Goal
+- sf-kernel is designed to be:
+- Minimal: only the core chess engine remains
+- Clean: warning-free at strict compiler levels
+- Modern: idiomatic, tool-friendly C++
+- Transparent: readable, auditable, hackable
+- Fast: retains Stockfish’s proven performance characteristics
 
+## Why sf-kernel?
+- Stockfish is extremely powerful — but also extremely large, complex, and legacy-heavy.
+- sf-kernel exists to answer a simple question:
+- What does Stockfish look like when you keep only the engine — and remove everything else?
+- The result is a tiny, fast, research-friendly kernel that is easy to understand, modify, embed, and experiment with.
+
+## Status
+✔ Compiles cleanly at strict warning levels
+✔ Functional engine core
+✔ Major size reduction vs Stockfish
+🚧 Ongoing: cleanup and subsystem documentation
+
+## 🧩 Based On
 This project is based on:
 
 Stockfish 16
 https://github.com/official-stockfish/Stockfish
 
 ## 📦 Current Scope
-
 Included:
-
 - Move generation
 - Search
 - Evaluation (NNUE supported)
@@ -62,12 +90,8 @@ Included:
 - Time management core
 
 Excluded:
-
 - UCI shell
 - Debug/UI tooling
 - Legacy portability shims
 - Platform-specific wrappers
 
-## 🚀 Goal
-
-To published a clean modern and optimized Stockfish kernel.
