@@ -33,6 +33,10 @@ The project is not a “fork” in the traditional sense — it is a structural 
 - C++ standard conformance & static analysis cleanliness
 - Maximum warning hygiene
 
+## 🧠 Core Philosophy
+sf-kernel treats Stockfish as a kernel, not an application.
+Everything unnecessary for pure chess intelligence has been cut away.
+
 ## 📦 What Was Removed
 All non-essential layers:
 
@@ -67,10 +71,6 @@ It is Stockfish — just without the noise.
 - Readability: from Low to High
 
 sf-kernel preserves Stockfish’s world-class playing strength while making the engine auditable, portable, and clean.
-
-## 🧠 Core Philosophy
-sf-kernel treats Stockfish as a kernel, not an application.
-Everything unnecessary for pure chess intelligence has been cut away.
 
 ## 🚀 Goal
 - sf-kernel is designed to be:
