@@ -33,7 +33,7 @@ The project is not a “fork” in the traditional sense — it is a structural 
 - C++ standard conformance & static analysis cleanliness
 - Maximum warning hygiene
 
-📦 What Was Removed
+## 📦 What Was Removed
 All non-essential layers:
 
 - Debugging 
@@ -91,10 +91,13 @@ Everything unnecessary for pure chess intelligence has been cut away.
 
 ## 🚦 Status
 ✅ Compiles cleanly at strict warning levels
+
 ✅ Functional engine core
+
 ✅ Major size reduction vs Stockfish
 
 ✅ Warning-clean under strict analysis modes
+
 🚧 Ongoing: cleanup and subsystem documentation
 
 ## 🧩 Based On
