@@ -49,7 +49,7 @@ All non-essential layers:
 - Classical Evaluation
 - Training infrastructure (Not runtime logic)
 - Legacy platform glue (Modern C++ only)
-- Debug infrastructure(Clean release kernel)
+- Debug infrastructure (Clean release kernel)
 
 ## 🧱 What Remains
 - Move generation
