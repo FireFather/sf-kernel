@@ -5,30 +5,30 @@ sf-kernel is a stripped-down, modernized, and aggressively cleaned extraction of
 
 It focuses on:
 
-• Deterministic, warning-free builds
-• Strict standards correctness (MSVC / Clang / GCC / MinGW)
-• Minimal code surface and binary size
-• Clean move generation, search, and evaluation core
-• Maximum suitability for embedding, study, and research
+- Deterministic, warning-free builds
+- Strict standards correctness (MSVC / Clang / GCC / MinGW)
+- Minimal code surface and binary size
+- Clean move generation, search, and evaluation core
+- Maximum suitability for embedding, study, and research
 
 All non-essential layers — UCI front-end glue, debugging infrastructure, legacy compatibility shims, and platform clutter — have been removed or rewritten.
 
 The result is a tiny, fast, transparent Stockfish kernel suitable for:
 
-• Game engines
-• Chess AI research
-• Reinforcement learning backends
-• Engine embedding
-• Minimal chess programs
-• Code analysis and teaching
+- Game engines
+- Chess AI research
+-  Reinforcement learning backends
+- Engine embedding
+- Minimal chess programs
+- Code analysis and teaching
 
 🔬 What Makes sf-kernel Different
-Source code footprint size:	~680 KB	has been reduced to ~218 KB
-Compiler warnings reduced from 3029 to 24 (via MSVC / Resharper / Clang analysis)
-Build surface: Large to Minimal
-Dependencies: Many to Tiny
-Embeddable: Hard to Easy
-Readability: Low to High
+- Source code footprint size:	~680 KB	has been reduced to ~218 KB
+- Compiler warnings reduced from 3029 to 24 (via MSVC / Resharper / Clang analysis)
+- Build surface: Large to Minimal
+- Dependencies: Many to Tiny
+- Embeddable: Hard to Easy
+- Readability: Low to High
 
 sf-kernel preserves Stockfish’s world-class playing strength while making the engine auditable, portable, and clean.
 
