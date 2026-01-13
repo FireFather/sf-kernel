@@ -106,7 +106,7 @@ Stockfish https://github.com/official-stockfish/Stockfish
 
 ## ⚙️To Build
 - Visual Studio -> use the included project files: sf-kernel.sln or sf-kernel.vcxproj
-- Msts2 mingx64 -> use the included shell scripts: make_avx2.sh, make_bmi2.sh or make_all.sh
+- MSYS2 mingw64 -> use the included shell scripts: make_avx2.sh, make_bmi2.sh or make_all.sh
 
 ## 📜 License
 - sf-kernel is derived from Stockfish and is released under the GNU General Public License v3.
