@@ -44,7 +44,10 @@ have been removed or rewritten.
 
 ## 🔬 What Makes sf-kernel Different
 - Source code footprint size: ~680 KB has been reduced to ~218 KB
-- Compiler warnings reduced from 3029 to 118 (via strict MSVC/Resharper/Clang analysis)
+- Compiler warnings reduced:
+	from 3029 ![alt tag](https://raw.githubusercontent.com/FireFather/sf-kernel/master/docs/stockfish_16_warnings.xml)
+	to 118 ![alt tag](https://raw.githubusercontent.com/FireFather/sf-kernel/master/docs/sf-kernel_1.0_warnings.xml)
+  (via strict MSVC/Resharper/Clang analysis)
 - Build surface: Large to Minimal
 - Dependencies: Many to Tiny
 - Embeddable: Hard to Easy
