@@ -67,8 +67,11 @@ Everything unnecessary for pure chess intelligence has been cut away.
 
 ## Status
 ✔ Compiles cleanly at strict warning levels
+
 ✔ Functional engine core
+
 ✔ Major size reduction vs Stockfish
+
 🚧 Ongoing: cleanup and subsystem documentation
 
 ## 🧩 Based On
