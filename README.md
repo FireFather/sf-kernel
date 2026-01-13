@@ -100,16 +100,16 @@ Everything unnecessary for pure chess intelligence has been cut away.
 
 🚧 Ongoing: cleanup and subsystem documentation
 
-## 🧩 Based On
-This project is based on:
-Stockfish https://github.com/official-stockfish/Stockfish
-
 ## ⚙️To Build
 - Visual Studio -> use the included project files: sf-kernel.sln or sf-kernel.vcxproj
 - MSYS2 mingw64 -> use the included shell scripts: make_avx2.sh, make_bmi2.sh or make_all.sh
 
+## 🧩 Based On
+This project is based on:
+Stockfish https://github.com/official-stockfish/Stockfish
+
 ## 📜 License
-- sf-kernel is derived from Stockfish and is released under the GNU General Public License v3.
+- sf-kernel (like Stockfish) is released under the GNU General Public License v3.
 - See LICENSE for details.
 
 ## 📦 Current Scope
