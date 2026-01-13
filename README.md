@@ -56,7 +56,7 @@ All non-essential layers:
 - Search & pruning logic
 - Evaluation & NNUE interface
 - Hash tables
-- Threading & time control
+- Threading
 - Position, legality, SEE, repetition, etc.
 - UCI interface
 - Time Management
