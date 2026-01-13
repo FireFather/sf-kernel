@@ -23,13 +23,12 @@ The result is a tiny, fast, transparent Stockfish kernel suitable for:
 • Code analysis and teaching
 
 🔬 What Makes sf-kernel Different
-Feature	Stockfish 16	sf-kernel
-Binary size	~680 KB	~218 KB
-Compiler warnings	Thousands	Zero (MSVC / Clang)
-Build surface	Large	Minimal
-Dependencies	Many	Tiny
-Embeddable	Hard	Easy
-Readability	Low	High
+Source code footprint size:	~680 KB	has been reduced to ~218 KB
+Compiler warnings reduced from 3029 to 24 (via MSVC / Resharper / Clang analysis)
+Build surface: Large to Minimal
+Dependencies: Many to Tiny
+Embeddable: Hard to Easy
+Readability: Low to High
 
 sf-kernel preserves Stockfish’s world-class playing strength while making the engine auditable, portable, and clean.
 
@@ -67,4 +66,4 @@ Excluded:
 
 🚀 Goal
 
-To be the cleanest Stockfish kernel ever published.
+To published a clean modern and optimized Stockfish kernel.
