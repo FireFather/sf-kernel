@@ -68,7 +68,7 @@ namespace Nebula{
       const string pathSeparator="/";
 #endif
 
-      char buff[40000];
+      static char buff[40000];
 #ifdef _WIN32
       _getcwd(buff,40000);
 #else

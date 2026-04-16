@@ -14,7 +14,7 @@ namespace Nebula{
       return Search::limits.npmsec?static_cast<TimePoint>(threads.nodesSearched()):now()-startTime;
     }
 
-    int64_t availableNodes;
+    int64_t availableNodes{};
   private:
     TimePoint startTime=0;
     TimePoint optimumTime=0;

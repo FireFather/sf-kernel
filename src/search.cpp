@@ -100,7 +100,8 @@ namespace Nebula{
   }
 
   void Thread::search(){
-    Stack stack[maxPly+10], *ss=stack+7;
+    std::unique_ptr<Stack[]> stack(new Stack[maxPly + 10]);
+    Stack* ss=stack.get() + 7;
     Move pv[maxPly+1];
     Value alpha, delta;
     Move lastBestMove=MOVE_NONE;

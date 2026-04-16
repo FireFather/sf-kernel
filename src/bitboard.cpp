@@ -75,8 +75,10 @@ namespace Nebula{
     }
 
     void initMagics(const PieceType pt, uint64_t table[], Magic magics[]){
-      uint64_t occupancy[4096], reference[4096];
-      int epoch[4096]={}, cnt=0, size=0;
+      static uint64_t occupancy[4096];
+      static uint64_t reference[4096];
+      static int epoch[4096];
+      int cnt=0, size=0;
       for (Square s=SQ_A1; s<=SQ_H8; ++s){
         const int seeds[][RANK_NB]={
           {8977,44560,54343,38998,5731,95205,104912,17020},
